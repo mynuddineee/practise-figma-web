@@ -86,3 +86,57 @@ div {
     width: 802px;
     height: 500px;
 }
+
+/* Midnight-party styles */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 39px;
+    margin-left: 138px;
+}
+
+.midnight-title{
+    font-weight: 900;
+    font-size: 64px;
+    width: 642px;
+    height: 176px;
+    color: #ffffff;
+    margin-left: 126px;
+    margin-top: 126px;
+    /* text-align: center; */
+}
+.midnight-description{
+    width: 697px;
+    height: 60px;
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 126px;
+    margin-right: 552px;
+    /* text-align: center; */
+}
+
+.btn-midnight{
+    width: 103px;
+    height: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    margin-top: 48px;
+    margin-left: 158px;
+    margin-right: 513px;
+    background: none;
+    /* text-align: center; */
+}
+
+/* midnight bg img */
+.hero{
+    background: url(../images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+/* midnight img */
