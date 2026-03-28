@@ -8,10 +8,10 @@
 }
 
 .inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
 /* banner style */
@@ -53,50 +53,55 @@ div {
 }
 
 /* banner-2 style */
-.banner-2{
+.banner-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.banner-2-title{
+
+.banner-2-title {
     font-weight: bold;
     font-size: 88px;
     color: #FF0000;
     text-align: center;
     margin-bottom: 48px;
 }
-.banner-2-description{
+
+.banner-2-description {
     font-weight: 500;
     font-size: 24px;
     color: #FF0000;
     margin-bottom: 16px;
 }
 
-.category{
+.category {
     font-size: 48px;
     font-weight: bold;
     margin: 0;
 }
-.new-photo{
+
+.new-photo {
     display: flex;
     justify-content: center;
 }
-.new-photo img{
+
+.new-photo img {
     width: 802px;
     height: 500px;
 }
 
 /* Midnight-party styles */
-.hero{
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 39px;
     margin-left: 138px;
+    gap: 0
 }
 
-.midnight-title{
+.midnight-title {
     font-weight: 900;
     font-size: 64px;
     width: 642px;
@@ -106,7 +111,8 @@ div {
     margin-top: 126px;
     /* text-align: center; */
 }
-.midnight-description{
+
+.midnight-description {
     width: 697px;
     height: 60px;
     color: #ffffff;
@@ -116,7 +122,7 @@ div {
     /* text-align: center; */
 }
 
-.btn-midnight{
+.btn-midnight {
     width: 103px;
     height: 24px;
     font-weight: bold;
@@ -131,12 +137,66 @@ div {
 }
 
 /* midnight bg img */
-.hero{
+.hero {
     background: url(../images/Vectorrr.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 140px;
     margin-right: 140px;
+
 }
-/* midnight img */
+
+/* Join Now */
+.Join-now-banner {
+    /* width: 1320px; */
+    height: 482px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 120px 120px;
+    background: linear-gradient(0deg, wheat)0%;
+    /* background: linear-gradient(0deg, #FF0000)0%; */
+}
+
+.suii {
+    text-align: center;
+    margin: 120px 380px;
+    margin: auto;
+    
+}
+
+.red {
+    color: #FF0000;
+}
+
+.item {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.btn-2 {
+    font-weight: bold;
+}
+
+.join btn {
+    border: none;
+    border-radius: 8px;
+    background-color: #FF0000;
+    width: 167px;
+    height: 56px;
+}
+
+.btn-2 {
+    margin-top: 38px;
+    color: wheat;
+    border: none;
+    border-radius: 8px;
+    background-color: #FF0000;
+    width: 167px;
+    height: 56px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
