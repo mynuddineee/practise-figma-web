@@ -344,11 +344,16 @@ div {
 
 /* second last sect */
 .padd {
-    margin-top: 120px;
-    margin: 200px 140px;
+    /* margin-top: 120px; */
+    /* margin: 200px 140px; */
     padding: 120px 140px;
     /* width: 1320px; */
-    
+
+}
+
+.second-last-sect {
+    /* margin: 120px 140px; */
+    padding: 120px 140px;
 }
 
 .the-title {
@@ -362,20 +367,104 @@ div {
     font-size: 48px;
     color: #070211;
 }
-.the-description{
+
+.the-description {
     width: 896px;
     font-size: 20px;
     background: linear-gradient(to right, #070211, #310E77) 20%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.second-last-all-img{
+
+.plz-last {
+    padding: 140px 120px;
+    margin: 200px 140px;
+}
+
+.second-last-all-img {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    
+
 }
-.last-img-no{
+
+.last-img-no {
     width: 424px;
     height: 450px;
+}
+
+/* last sect */
+.last-sect {
+    text-align: center;
+    margin-top: 200px;
+    padding: 80px 212px 200px 212px;
+}
+
+.last-sect-title {
+    font-weight: 900;
+    font-size: 48px;
+    color: #070211;
+}
+
+.last-sect-description {
+    margin: 0 auto;
+    font-size: 20px;
+    color: #434343;
+    opacity: 60;
+    width: 896px;
+}
+
+.input-sector {
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 648px;
+    height: 72px;
+    border: 10px solid white;
+    border-radius: 50px;
+    /* padding: 15px 25px;
+    border: none;
+    background: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer; */
+
+}
+
+.input-email {
+    /* text-align: center; */
+    border: none;
+    background: none;
+    font-size: 18px;
+    width: 141px;
+    height: 22px;
+    color: #494949;
+    padding-left: 30px;
+    flex: 1;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 30px 0 0 30px;
+
+    /* border-width: 648px; */
+}
+
+.btn-import {
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px 25px;
+    border: none;
+    background: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+    /* border: 10px solid; */
+    /* background-color: #FF0000; */
 }
